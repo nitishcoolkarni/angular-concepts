@@ -1,0 +1,9 @@
+<p>first works!</p>
+<button (click)="showSecond()">Show second</button>
+<!-- <button [routerLink]="[{ outlets: { firstOutlet: ['second'] } }]">show Second using html</button> -->
+<button (click)="clearSecond()">Clear second</button>
+<button routerLink="third">Show third</button>
+
+<router-outlet name="appOutlet"></router-outlet>
+<router-outlet></router-outlet>
+<!-- <router-outlet name="firstOutlet"></router-outlet> -->
